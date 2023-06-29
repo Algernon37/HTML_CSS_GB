@@ -1,0 +1,93 @@
+
+body{
+  background-color: #cbced1;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.Menu
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+    
+}
+ul {
+  list-style: none;
+  margin: 0; 
+  padding-left: 0;
+  margin-top:25px; /
+  }
+a {
+  text-decoration: none;
+  background:hsl(0, 78%, 55%);
+  color:#fff;
+  padding:10px;
+  font-family: arial;
+  border-radius:4px;
+  transition: opacity .2s linear;
+}
+a:hover {
+  background:rgb(180, 24, 24);
+  }
+li {
+  float:left; 
+  margin-right:5px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 500;
+  color: hsl(0, 78%, 55%);
+  border-right: 4px solid #000;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: hsl(0, 78%, 55%);
+  border-right: 4px solid #000;
+}
+
+
+.moto {
+  margin:100px 0 70px;
+}
+
+.moto__inner{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+
+.moto__iteam{
+  width: 25%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+
+.moto__photo{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.moto__name{
+  margin-bottom: 8px;
+  font-size: 22px;
+  color: #2d3033;
+}
+
+.moto__text{
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
