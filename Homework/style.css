@@ -1,28 +1,36 @@
 
 body{
+  font-family: sans-serif;
   background-color: #cbced1;
+  box-sizing: border-box;
 }
 
 .container{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
 .Menu
 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-    
+  color: cornflowerblue;
+  font-size:16px;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
+
 ul {
   list-style: none;
   margin: 0; 
   padding-left: 0;
-  margin-top:25px; /
+  margin-top:25px; 
   }
+
 a {
   text-decoration: none;
   background:hsl(0, 78%, 55%);
@@ -32,46 +40,68 @@ a {
   border-radius:4px;
   transition: opacity .2s linear;
 }
+
 a:hover {
   background:rgb(180, 24, 24);
-  }
+}
+
 li {
   float:left; 
   margin-right:5px;
 }
 
 h1 {
-  font-size: 70px;
-  font-weight: 500;
-  color: hsl(0, 78%, 55%);
-  border-right: 4px solid #000;
+  font-size: 28px;
+  font-weight: bold;
+  color: #222222;
+  line-height: 36px;
 }
 
 h2 {
   font-size: 40px;
   font-weight: 500;
   color: hsl(0, 78%, 55%);
-  border-right: 4px solid #000;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+.heading__2{
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.paragraph{
+  text-align: center;
+  margin: 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7D7987
+}
 
 .moto {
   margin:100px 0 70px;
+  display: flex;
+  justify-content: center;
 }
 
 .moto__inner{
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  margin: 0 auto;
 }
-
 
 .moto__iteam{
   width: 25%;
   padding: 0 15px;
-  margin-bottom: 30px;
+  margin: 0 35px;
 }
-
 
 .moto__photo{
   display: block;
@@ -90,4 +120,32 @@ h2 {
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+
+.foto__logo{
+  border-radius: 10px;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+input{
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.btn{
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
