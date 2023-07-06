@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 
 body{
   font-family: sans-serif;
@@ -29,7 +33,7 @@ ul {
   margin: 0; 
   padding-left: 0;
   margin-top:25px; 
-  }
+}
 
 a {
   text-decoration: none;
@@ -46,7 +50,7 @@ a:hover {
 }
 
 li {
-  float:left; 
+  float:left;
   margin-right:5px;
 }
 
@@ -66,6 +70,7 @@ h2 {
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
+
 .menu__text{
   margin: 0;
   padding:0;
