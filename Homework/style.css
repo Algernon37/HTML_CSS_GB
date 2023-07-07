@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@ body{
 
 .container{
   width: 100%;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -55,16 +56,20 @@ li {
 }
 
 h1 {
-  font-size: 28px;
-  font-weight: bold;
-  color: #222222;
-  line-height: 36px;
+  color: hsl(0, 78%, 55%);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
 }
 
+
 h2 {
-  font-size: 40px;
-  font-weight: 500;
   color: hsl(0, 78%, 55%);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 80px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -77,37 +82,43 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-.heading__2{
-  color: coral;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 80px;
-}
 
 .paragraph{
+  text-align: justify;
+  margin: 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #3a3332
+}
+
+.paragraph_center{
   text-align: center;
   margin: 0px;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
-  color: #7D7987
-}
+  color: #3a3332
+} 
+
 
 .moto {
   margin:100px 0 70px;
-  display: flex;
-  justify-content: center;
 }
 
 .moto__inner{
   display:flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 0 -15px;
+  padding: 0;
+  margin: 0;
 }
 
 .moto__iteam{
+  border-radius: 10px;
+  background-color: #acaaaa;
   width: 25%;
   padding: 0 15px;
   margin: 0 35px;
@@ -132,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 
-.foto__logo{
+img{
   border-radius: 10px;
 }
 
