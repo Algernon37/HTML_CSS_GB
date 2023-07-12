@@ -60,14 +60,20 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 750px;
     padding-top: 100px;
+}
+
+.intro__subtitle{
+    color: #3A68B8;
+    text-transform: uppercase;
+    margin-bottom:30px;
 }
 
 .title__intro{
     font-size: 55px;
     font-weight:800;
 }
+
 .intro__p{
     padding:45px 0;
     font-size: 18px;
@@ -75,15 +81,10 @@ a {
     opacity: 0.5; 
 }
 
-.intro__subtitle{
-    color: #3A68B8;
-    text-transform: uppercase;
-}
-
 .button__intro {
     background-color: #3A68B8;
     border: none;
-    margin:20px;
+    margin: 9px;
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
@@ -102,7 +103,6 @@ a {
     margin-left:0;
 }
 
-
 .button__intro:hover {
     background-color: #2b5192;
 }
@@ -113,10 +113,15 @@ a {
     margin-right: 5px;
 }
 
-/***************** photo ****************/
 .intro__photo{
     width: 418px;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+/***************** company ****************/
+
+.company__photo{
+    margin-top: 200px;
 }
