@@ -14,6 +14,8 @@ body{
 }
 
 .container{
+    margin-top: 160px;
+    position: relative;
     width: 100%;
     max-width: 1150px;
     margin: 0 auto;
@@ -49,17 +51,16 @@ a {
 }
 
 /***************** intro ****************/
-.intro__inner{
-    width: 600px;
-    margin-right:130px ;
-}
 
 .intro {
-    margin:0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 260px;
+}
+
+.intro__inner{
+    width: 600px;
 }
 
 .intro__subtitle{
@@ -86,7 +87,6 @@ a {
     margin: 9px;
     color: #fff;
     padding: 10px 20px;
-    font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 20px;
@@ -113,8 +113,9 @@ a {
 }
 
 .intro__photo{
-    width: 418px;
     position: absolute;
+    max-width: 414px;
+    max-height: 415px;
     top: 0;
     right: 0;
 }
