@@ -20,6 +20,7 @@ body{
     max-width: 1150px;
     margin: 0 auto;
     padding: 0 15px;
+    overflow: hidden;
 }
 
 a {
@@ -77,7 +78,6 @@ a {
     margin-bottom: 40px;
     width: 604px;
     color: var(--ffffff, #FFF);
-    font-family: Open Sans;
     font-size: 55px;
     font-style: normal;
     font-weight: 800;
@@ -147,8 +147,9 @@ a {
 /***************** brain ****************/
 
 .brain__list{
-    margin-bottom:256px ;
+    margin-bottom:264px ;
 }
+
 .brain__inner{
     gap: 68px;
 }
@@ -167,7 +168,6 @@ a {
 
 .brain__title{
     color: var(--ffffff, #FFF);
-    font-family: Open Sans;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -177,7 +177,6 @@ a {
 
 .brain__text{
     color: var(--ffffff, #FFF);
-    font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -189,7 +188,7 @@ a {
 /* Cards */
 
 .cards__inner{
-    margin-bottom:256px;
+    margin-bottom:243px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -274,4 +273,121 @@ a {
     font-weight: 600;
     line-height: 160%;
     opacity: 0.699999988079071;
+}
+
+
+/* About */
+
+.about__list{
+    
+    margin-bottom:203px ;
+}
+
+.about__inner {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start; 
+}
+
+.about__box__text{
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    left: 0;
+    margin-left:15px;
+}
+
+.about__title{
+    color: var(--ffffff, #FFF);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; 
+    margin-bottom: 40px;
+    margin-top: 14px;
+}
+
+.about__text{
+    color: var(--ffffff, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.699999988079071;
+    margin-bottom: 32px;
+}
+
+.last__child{
+    margin-bottom: 14px;
+}
+
+.about__photo {
+    flex-shrink: 0;
+}
+
+/* Footer */
+
+.footer{
+    font-family:'Roboto';
+    background-color: #070f1d;
+    height: 100%;
+}
+
+.footer__inner{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 47px;
+}
+  
+
+.footer__title{
+    margin-top: 47px;
+    margin-bottom: 33px;
+    color: var(--ffffff, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.footer__item img {
+    margin-right: 10px;
+}
+  
+.footer__text {
+    color: var(--ffffff, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text_about_the_store{
+    width: 261px;
+    color: var(--ffffff, #FFF);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+    opacity: 0.6000000238418579;
+}
+
+.social__item__in{
+    margin: 0 24px;
 }
