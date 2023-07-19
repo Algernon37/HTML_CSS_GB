@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* <!-- /////////////////// Header /////////////////// --> */
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+    width: 100%;
+    height: 75px;
+    flex-shrink: 0;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+}
+
+.button__copy{
+    width: 158.996px;
+    height: 29px;
+    flex-shrink: 0;
+}
+
+.logo{
+    margin-top: 18px;  
+}
+
+.button__copy{
+    margin-top: 26px;
+    margin-bottom: 20px;     
+}
+
+
+/* <!-- /////////////////// Intro /////////////////// --> */
+
+.intro {
+    display: flex;
+    background: #F1E4E6;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+    margin-bottom: 65px;
+}
+
+  
+.intro__img {
+    width: 50%;
+}
+  
+.intro__info {
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    margin-top: 70%;
+}
+
+.intro__content {
+    padding-left: 64px;
+}
+
+.Typography{
+    color: #222;
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.Of_luxerious{
+    color: #222;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Fashion{
+    color: #F16D7F;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* <!-- /////////////////// Offer /////////////////// --> */
+
+.offer{
+    margin-bottom: 95px;
+}
+
+.offer__inner {
+    width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.offer__cards {
+    position: relative;
+    width: 100%;
+}
+
+.offer__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.offer__big__card {
+    position: relative;
+    grid-column: 1 / -1;
+}
+
+.Typography__offer{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.for{
+    color: #F16D7F;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+/* <!-- /////////////////// Products /////////////////// --> */
+
+.products{
+    margin-bottom:48px;
+}
+
+.products__start{
+    text-align: center;
+    justify-content: center;
+    margin-bottom:48px;
+}
+
+.products__title{
+    color: #222;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.products__text{
+    color: #9F9F9F;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.products__inner{
+    width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px; 
+}
+
+.products__cards{
+    background-color: #F8F8F8;     
+}
+
+.cards__info{
+    padding: 24px 16px;
+}
+
+.cards__text{
+    margin:16px 0;
+}
+
+.cards__title{
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cards__text{
+    color: #5D5D5D;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.cards__price{
+    color: #F16D7F;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* <!-- /////////////////// Button /////////////////// --> */
+
+.button__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px; 
+}
+
+.button{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: solid 1px #FF6A6A;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #f34058; 
+
+}
+
+.button__text{
+    padding:14px 39px 15px 39px;
+    color:#F26376;
+}
+
+.button:hover .button__text {
+    color: #FFFFFF;
+}
