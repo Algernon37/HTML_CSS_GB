@@ -20,25 +20,25 @@ header{
 
 .header__inner{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 1140px;
 }
 
-.button__copy{
-    width: 158.996px;
-    height: 29px;
-    flex-shrink: 0;
-}
-
 .logo{
-    margin-top: 18px;  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 41px;
+    padding-left:32px;   
 }
 
 .button__copy{
-    margin-top: 26px;
-    margin-bottom: 20px;     
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    padding-right:32px; 
 }
-
 
 /* <!-- /////////////////// Intro /////////////////// --> */
 
@@ -249,3 +249,34 @@ header{
 .button:hover .button__text {
     color: #FFFFFF;
 }
+
+/* <!-- /////////////////// Media /////////////////// --> */
+
+@media (max-width: 1141px) {
+
+    .offer {
+        padding: 0 16.5px;
+    }
+
+    .offer__inner{
+        width: 735px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 19px; 
+    }
+
+    .header__inner{
+        width: 735px;
+    }
+
+    .products__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-gap: 16px;
+        width: 735px;
+        margin: 0 auto;
+    }
+
+}
+
